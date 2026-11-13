@@ -50,3 +50,7 @@ try{
     throw new RuntimeException(
         "No fue posible conectar con la base de datos");
 }
+
+/*Paso 5: devolver el objeto PDO
+Si se requiere esta conexion, utilizamos "require"*/
+return $conexion;
